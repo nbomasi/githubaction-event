@@ -1,5 +1,6 @@
 name: Events Demo 1
 on: 
+#on: [pull_request, push] another way to express event
   pull_request:
     types:
       - opened
